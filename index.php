@@ -85,10 +85,10 @@
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#services">Services<span></span></a>
                                     </li>
-                                    <!-- <li class="nav-item">
+                                    <li class="nav-item">
                                         <a class="page-scroll" href="#project">Portfolio<span></span></a>
                                     </li>
-                                    <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                         <a class="page-scroll" href="#pricing">Pricing<span></span></a>
                                     </li>
                                     <li class="nav-item">
@@ -117,7 +117,7 @@
                             <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Hi there..</h5>
                             <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">I'm Freelancer</h2>
                             <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Let me introduce my selft to make you know who I am,  you can find me on Freelancer Marketplace like <b>Fiverr, Fastwork etc</b>.</span>
-                            <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">So..My name is Firman Taufik, I was born in Indonesia and  Im    Freelancer more than 2 years i have  finish many project like company project for 
+                            <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">So..My name is <b> Firman Taufik </b>, I was born in Indonesia and  Im    Freelancer more than 2 years i have  finish many project like company project for 
                                 goverment and a client personal project. My work focused as Android Developer and making Android Application .</p>
                             <a href="https://www.fiverr.com/hidungpesek?up_rollout=true" rel="nofollow" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Fiverr</a>
                             <!-- <a href=""><button class="main-btn border-less"></button></a> -->
@@ -190,6 +190,19 @@
                             </div> <!-- skill item -->
                             <div class="skill_item mt-20">
                                 <div class="skill_header">
+                                    <h6 class="skill_title">Flutter</h6>
+                                    <div class="skill_percentage">
+                                        <p><span class="counter">70</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill_bar">
+                                    <div class="bar_inner">
+                                        <div class="bar progress_line" data-width="85"></div>
+                                    </div>
+                                </div>
+                            </div> <!-- skill item -->
+                            <div class="skill_item mt-20">
+                                <div class="skill_header">
                                     <h6 class="skill_title">PHP Native</h6>
                                     <div class="skill_percentage">
                                         <p><span class="counter">90</span>%</p>
@@ -251,7 +264,7 @@
 
     <!--====== SERVICES PART START ======-->
 
-    <section id="services" class="services_area pt-115 pb-120">
+    <section id="services" class="services_area   pb-120">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -309,7 +322,62 @@
     <!--====== SERVICES PART ENDS ======-->
 
 
-
+    <section id="project" class="project_area  ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="section_title pb-30">
+                    <h5 class="sub_title">Portfolio</h5>
+                    <h3 class="main_title">Latest Projects</h3>
+                    <ul class="line">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="col-sm-3">
+            <div class="project_btn text-sm-right">
+            <a class="main-btn main-btn-2" href="#">All Works</a>
+            </div> 
+            </div>
+        </div>   
+        <div class="row">
+            <div class="col-lg-4 ">
+                 <div class="single_project wow">
+                    <div class="project_image">
+                        <img src="assets/images/eperpusid.jpg" alt="project">
+                    </div>
+                    <div class="project_content mt-10">
+                        <h4 style="color: black;"  ><a style="color: black;"  href="https://eperpus.id/" tabindex="0">E-Perpus (Android App Books Library)</a></h4>
+                        <p>Fullstack Android Developer</p>
+                    </div>
+                 </div>
+            </div> 
+            <div class="col-lg-4 ">
+                 <div class="single_project wow">
+                    <div class="project_image">
+                        <img src="assets/images/sipendawanitis.jpg" alt="project">
+                    </div>
+                    <div class="project_content mt-10">
+                        <h4 style="color: black;"  ><a style="color: black;"  href="https://play.google.com/store/apps/details?id=com.projectcikembar.app" tabindex="0">Sipendawanitis Goverment App</a></h4>
+                        <p>Android Developer</p>
+                    </div>
+                 </div>
+            </div> 
+            <div class="col-lg-4 ">
+                 <div class="single_project wow">
+                    <div class="project_image">
+                        <img src="assets/images/sekolah.jpg" alt="project">
+                    </div>
+                    <div class="project_content mt-10">
+                        <h4 style="color: black;"  ><a style="color: black;"  href="https://pptqalizzah.sch.id/" tabindex="0">School Administration and Canteen App</a></h4>
+                        <p>Fullstack Android Developer</p>
+                    </div>
+                 </div>
+            </div> 
+        </div>
+</section>
 
     <!--====== CALL TO ACTION PART START ======-->
 
@@ -334,11 +402,11 @@
                         </ul>
                         <span class="email">fkopitezz@gmail.com</span>
                         <ul class="footer_menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About </a></li>
-                            <li><a href="#">Service</a></li>
-                            <!-- <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Pricing</a></li>
+                            <li><a class="page-scroll"  href="#home">Home</a></li>
+                            <li><a class="page-scroll"  href="#about">About </a></li>
+                            <li><a class="page-scroll"  href="#services">Service</a></li>
+                             <li><a class="page-scroll"  href="#project">Portfolio</a></li>
+                            <!-- <li><a href="#">Pricing</a></li>
                             <li><a href="#">Contact Us</a></li> -->
                         </ul>
                         <!-- <p class="credit pt-45">Template Designed and Developed by <a href="https://uideck.com/" rel="nofollow">UIdeck</a></p> -->
