@@ -86,12 +86,12 @@
                                         <a class="page-scroll" href="#services">Services<span></span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#project">Portfolio<span></span></a>
+                                        <a class="page-scroll" href="#project">Project<span></span></a>
                                     </li>
-                                        <!-- <li class="nav-item">
-                                        <a class="page-scroll" href="#pricing">Pricing<span></span></a>
+                                       <li class="nav-item">
+                                        <a class="page-scroll" href="/portfolio/"> Portfolio <span></span></a>
                                     </li>
-                                    <li class="nav-item">
+                                     <!-- <li class="nav-item">
                                         <a class="page-scroll" href="#work">Experience<span></span></a> -->
                                     </li>
                                 </ul>
@@ -327,7 +327,7 @@
             <div class="row">
                 <div class="col-sm-9">
                     <div class="section_title pb-30">
-                    <h5 class="sub_title">Portfolio</h5>
+                    <h5 class="sub_title">Project</h5>
                     <h3 class="main_title">Latest Projects</h3>
                     <ul class="line">
                     <li></li>
