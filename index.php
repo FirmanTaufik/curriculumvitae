@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Freelancer - Firman Taufik</title>
+    <title>Android Developer - Firman Taufik</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,7 +66,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="#">
-                                <img src="assets/images/logo.svg" alt="Logo">
+                                <img src="assets/images/ad.png" alt="Logo" width="200">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -115,9 +115,9 @@
                     <div class="col-lg-6">
                         <div class="header_hero_content mt-45">
                             <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Hi there..</h5>
-                            <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">I'm Freelancer</h2>
-                            <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Let me introduce my selft to make you know who I am,  you can find me on Freelancer Marketplace like <b>Fiverr, Fastwork etc</b>.</span>
-                            <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">So..My name is <b> Firman Taufik </b>, I was born in Indonesia and  Im    Freelancer more than 2 years i have  finish many project like company project for 
+                            <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">I'm Android Developer</h2>
+                            <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Let me introduce my selft to make you know who I am,  currently i working for one of company in Indonesia (PT Indah Logistic Cargo) and you can find me on Android Developer Marketplace like <b>Fiverr, Fastwork etc</b>.</span>
+                            <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">So..My name is <b> Firman Taufik </b>, I was born in Indonesia and  Im    Android Developer more than 2 years i have  finish many project like company project for 
                                 goverment and a client personal project. My work focused as Android Developer and making Android Application .</p>
                             <a href="https://www.fiverr.com/hidungpesek?up_rollout=true" rel="nofollow" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Fiverr</a>
                             <!-- <a href=""><button class="main-btn border-less"></button></a> -->
@@ -178,6 +178,19 @@
                             <div class="skill_item mt-20">
                                 <div class="skill_header">
                                     <h6 class="skill_title">Kotlin</h6>
+                                    <div class="skill_percentage">
+                                        <p><span class="counter">90</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill_bar">
+                                    <div class="bar_inner">
+                                        <div class="bar progress_line" data-width="85"></div>
+                                    </div>
+                                </div>
+                            </div> <!-- skill item -->
+                            <div class="skill_item mt-20">
+                                <div class="skill_header">
+                                    <h6 class="skill_title">Jetpack Compose</h6>
                                     <div class="skill_percentage">
                                         <p><span class="counter">85</span>%</p>
                                     </div>
@@ -341,7 +354,44 @@
             <a class="main-btn main-btn-2" href="#">All Works</a>
             </div> 
             </div>
-        </div>   
+            
+        <div class="row">
+            <div class="col-lg-4 ">
+                 <div class="single_project wow">
+                    <div class="project_image">
+                        <img src="assets/images/movieapp.jpg" alt="project">
+                    </div>
+                    <div class="project_content mt-10">
+                        <h4 style="color: black;"  ><a style="color: black;"  href="https://play.google.com/store/apps/details?id=com.streaming.moviestelugu" tabindex="0">Movie App Jetpack Compose</a></h4>
+                        <p>Android Developer</p>
+                    </div>
+                 </div>
+            </div> 
+            
+            <div class="col-lg-4 ">
+                 <div class="single_project wow">
+                    <div class="project_image">
+                        <img src="assets/images/appkuririndah.jpg" alt="project">
+                    </div>
+                    <div class="project_content mt-10">
+                        <h4 style="color: black;"  ><a style="color: black;"  href="https://play.google.com/store/apps/details?id=com.dev.newindahlogistikmobile" tabindex="0">Kurir Apps Indah Logistik (Internal App)</a></h4>
+                        <p>Android Developer</p>
+                    </div>
+                 </div>
+            </div> 
+            <div class="col-lg-4 ">
+                 <div class="single_project wow">
+                    <div class="project_image">
+                        <img src="assets/images/indahchecker.jpg" alt="project">
+                    </div>
+                    <div class="project_content mt-10">
+                        <h4 style="color: black;"  ><a style="color: black;"  href="https://play.google.com/store/apps/details?id=com.indahlogistik.checker" tabindex="0">App Cek Resi Customer</a></h4>
+                        <p>Android Developer</p>
+                    </div>
+                 </div>
+            </div> 
+        </div>
+        <br>
         <div class="row">
             <div class="col-lg-4 ">
                  <div class="single_project wow">
@@ -377,6 +427,7 @@
                  </div>
             </div> 
         </div>
+        </div>   
 </section>
 
     <!--====== CALL TO ACTION PART START ======-->
